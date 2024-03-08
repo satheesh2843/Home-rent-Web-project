@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    font-family: 'poppins',sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(8, 190, 251);
+}
+h1{
+  transition: .5s;  
+}
+header:hover{
+    transition: .5s;
+    color: rgb(218, 229, 11);
+}
+a {
+    transition: .5s;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(253, 249, 249);
+    font-weight: bold;
+   
+}
+a:hover{
+    background-color:rgb(233, 185, 27);
+    padding: 8px 8px 8px;
+    border-radius: 7px;
+}
+body {
+    background-image: url("bg\ \(2\).avif");
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+}
+.content {
+    display: flex;
+    flex-direction: column;   
+    padding: 80px;
+    font-size: x-large;
+    color: rgb(12, 12, 12);
+    height: 40%; 
+}
+button{
+    background-color: rgb(9, 234, 250);
+    color:rgb(32, 9, 235);
+}
+button:hover{
+    background-color:rgb(233, 185, 27);
+    padding: 5px 5px 5px;
+    border-radius: 5px;
+}
+nav li{
+    color: white;
+    display:inline-block;
+    margin: 10px 20px;
+    padding: 5px 5px 5px;
+}
+form.a{
+    background-color: blue;
+}
